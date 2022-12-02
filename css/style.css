@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Orelega+One&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+        margin: 0;
+        background-color: black;
+}
+
+a{
+    text-decoration: none;
+}
+
+p{
+    color: white;
+}
+
+#container{
+        /* width: 1100px; */
+        margin: auto;
+        text-align: center;
+        width: 60vmax;
+}
+    
+header{
+        display: flex;
+        align-items: center;
+        height: 12em;
+        padding-top: 3em;
+}
+
+.left{
+    clip-path: circle(30% at 50% 40%);
+    object-fit: cover;
+    width: 200px;
+    height: auto;
+    transition: all 0.5s;
+    margin-left: 2em;
+}
+    
+.left:hover{
+    clip-path: circle(28% at 50% 40%);
+    object-fit: cover;
+    width: 200px;
+    height: auto;
+    opacity: 0.8;
+}
+
+h1{
+    font-family: 'Orelega One', cursive;
+    font-weight: normal;
+    margin: 0;
+    color: rgb(255, 255, 255);
+}
+
+.deux{
+    display: flex;
+    justify-content: space-around;
+}
+
+.mesphotos img{
+    padding: 0.5em;
+    object-fit: cover;
+    width: 300px;
+    height: 300px;
+    /* width: 15vw;
+    height: 15vw; */
+    transition: all 0.5s;
+}
+
+.mesphotos img:hover{
+    opacity: 0.5;
+}
+
+footer{
+    min-height: 5vmax;
+}
+
+footer p{
+    padding-top: 40px;
+}
